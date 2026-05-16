@@ -1,0 +1,33 @@
+services:
+  css-modules:
+    build:
+      context: ./css-modules-impl
+    ports:
+      - "3001:80"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  tailwind:
+    build:
+      context: ./tailwind-impl
+    ports:
+      - "3002:80"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  styled-components:
+    build:
+      context: ./styled-components-impl
+    ports:
+      - "3003:80"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
