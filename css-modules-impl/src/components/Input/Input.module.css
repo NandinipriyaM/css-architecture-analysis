@@ -1,0 +1,40 @@
+.field {
+  margin-bottom: 1.5rem;
+}
+.label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(128,128,128,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.input {
+  flex: 1;
+  border: none;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  outline: none;
+}
+.icon {
+  padding: 0 0.75rem;
+  font-size: 1.2rem;
+}
+.helper {
+  font-size: 0.8rem;
+  color: var(--color-secondary);
+}
+.error .inputWrapper {
+  border-color: var(--color-danger);
+}
+.errorText {
+  color: var(--color-danger);
+  font-size: 0.8rem;
+}
