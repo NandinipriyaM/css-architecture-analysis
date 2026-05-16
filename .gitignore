@@ -1,0 +1,38 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker related
+*.log
+.dockerignore
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / test outputs
+coverage/
+*.lcov
+
+# Vite specific (already covered by dist, but just in case)
+**/.vite/
