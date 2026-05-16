@@ -230,29 +230,3 @@ All three implementations successfully isolate styles from global pollution.
 The best choice depends on project scale, team familiarity, and performance constraints.
 
 ---
-
-## Environment Variables
-
-No critical environment variables are required.
-
-Optional variables are documented in `.env.example`.
-
----
-
-## Testing & Verification
-
-Recommended automated checks:
-
-* Verify all `data-testid` elements exist
-* Theme toggle updates styles correctly
-* Modal opens and closes properly
-* Global CSS pollution test passes
-
-Testing can be done with:
-
-* Cypress
-* Playwright
-* Puppeteer
-
----
-
