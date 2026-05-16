@@ -1,0 +1,25 @@
+.card {
+  background-color: var(--color-bg);
+  border: 1px solid rgba(128,128,128,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s, background-color 0.3s;
+  width: 280px;
+}
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(128,128,128,0.2);
+  font-weight: 600;
+}
+.body {
+  padding: 1rem;
+}
+.footer {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(128,128,128,0.2);
+  font-size: 0.875rem;
+  color: var(--color-secondary);
+}
+.hoverable:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
