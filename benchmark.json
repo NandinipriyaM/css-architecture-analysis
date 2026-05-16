@@ -1,0 +1,36 @@
+{
+  "cssModules": {
+    "bundleSize": {
+      "css_kb": 2.1,
+      "js_kb": 48.5
+    },
+    "deadCssPercentage": 29.3,
+    "stressTestRenderMs": 9.8,
+    "themeSwitchingFilesEdited": 2,
+    "isolatesFromGlobalCss": true
+  },
+  "tailwindCss": {
+    "bundleSize": {
+      "css_kb": 4.7,
+      "js_kb": 55.2
+    },
+    "deadCssPercentage": 0.0,
+    "stressTestRenderMs": 8.4,
+    "themeSwitchingFilesEdited": 2,
+    "isolatesFromGlobalCss": true
+  },
+  "styledComponents": {
+    "bundleSize": {
+      "css_kb": 0,
+      "js_kb_increase": 14.8
+    },
+    "injectedCss": {
+      "rules_count": 152,
+      "size_bytes": 4920
+    },
+    "deadCssPercentage": 0.0,
+    "stressTestRenderMs": 20.1,
+    "themeSwitchingFilesEdited": 2,
+    "isolatesFromGlobalCss": true
+  }
+}
