@@ -1,0 +1,14 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.section {
+  margin-bottom: 2.5rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
